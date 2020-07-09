@@ -1,0 +1,13 @@
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\obj\Debug\netcoreapp3.1\Lab02-UnitTests.csprojAssemblyReference.cache
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\obj\Debug\netcoreapp3.1\Lab02-UnitTests.AssemblyInfoInputs.cache
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\obj\Debug\netcoreapp3.1\Lab02-UnitTests.AssemblyInfo.cs
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\obj\Debug\netcoreapp3.1\Lab02-UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\bin\Debug\netcoreapp3.1\Lab02-UnitTests.exe
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\bin\Debug\netcoreapp3.1\Lab02-UnitTests.deps.json
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\bin\Debug\netcoreapp3.1\Lab02-UnitTests.runtimeconfig.json
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\bin\Debug\netcoreapp3.1\Lab02-UnitTests.runtimeconfig.dev.json
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\bin\Debug\netcoreapp3.1\Lab02-UnitTests.dll
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\bin\Debug\netcoreapp3.1\Lab02-UnitTests.pdb
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\obj\Debug\netcoreapp3.1\Lab02-UnitTests.dll
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\obj\Debug\netcoreapp3.1\Lab02-UnitTests.pdb
+C:\Users\Les\Source\Repos\Lab02-UnitTests\Lab02-UnitTests\obj\Debug\netcoreapp3.1\Lab02-UnitTests.genruntimeconfig.cache
