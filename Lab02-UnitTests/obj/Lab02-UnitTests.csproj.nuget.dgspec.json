@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Les\\Source\\Repos\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests.csproj": {}
+    "C:\\Users\\Les\\source\\repos\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Les\\Source\\Repos\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests.csproj": {
+    "C:\\Users\\Les\\source\\repos\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Les\\Source\\Repos\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\Les\\source\\repos\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests.csproj",
         "projectName": "Lab02-UnitTests",
-        "projectPath": "C:\\Users\\Les\\Source\\Repos\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests.csproj",
+        "projectPath": "C:\\Users\\Les\\source\\repos\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests.csproj",
         "packagesPath": "C:\\Users\\Les\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Les\\Source\\Repos\\Lab02-UnitTests\\Lab02-UnitTests\\obj\\",
+        "outputPath": "C:\\Users\\Les\\source\\repos\\Lab02-UnitTests\\Lab02-UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Les\\AppData\\Roaming\\NuGet\\NuGet.Config",

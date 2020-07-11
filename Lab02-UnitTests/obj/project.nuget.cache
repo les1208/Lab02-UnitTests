@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R7FMNw7T+UdrZUBZcqCZVxwSu5h/xieBQtoMmh6srZTTO4wnPmOIGBrZZm3YdCmIyLY6Uflif6hssRpuqp1sEA==",
+  "dgSpecHash": "pFHgxtkbXeA4kqgtPLHvuzNypAShifoyImdrgJ7JuQiwpcI70/DXQJjVskp6DULAngicrwV8H5zhQcnGIRtpYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Les\\Source\\Repos\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\Les\\source\\repos\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -14,6 +14,7 @@ namespace Lab02_UnitTests
         public static void Main(string[] args)
         {
             GringottsWizardingBank();
+
         }
 
 
@@ -102,7 +103,7 @@ namespace Lab02_UnitTests
             }
         }
 
-        public static decimal Withraw(decimal input)
+        public static decimal Withdraw(decimal input)
         {
             StartingBal = StartingBal - input;
             return StartingBal;
