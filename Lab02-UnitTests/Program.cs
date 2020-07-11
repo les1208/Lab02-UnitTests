@@ -1,27 +1,28 @@
 ﻿using System;
-using System.IO;
-using System.Runtime.ConstrainedExecution;
-using System.Xml.Serialization;
 
 namespace Lab02_UnitTests
 {
+
+
    public class Program
     {
-        public static decimal StartingBal = 777;
+
+
+        public static decimal Balance = 800;
         
-            /// <summary>
-            /// 
-            ///<summary>
+     
         public static void Main(string[] args)
         {
             GringottsWizardingBank();
         }
 
+
+
         /// <summary>
         /// this method is the menu for the user to make selection on what they want to do. 
         /// </summary>
         public static void GringottsWizardingBank()
-            {
+        {
             Console.WriteLine("Welcome to Gringotts, you are now at the main menu. Please make a selection 1, 2, 3, or 4");
             string userInput = Console.ReadLine();
             if (userInput == "1") MakeDeposit();
@@ -39,14 +40,14 @@ namespace Lab02_UnitTests
         public static void MakeDeposit()
         {
             try 
-                {
+            {
                 Console.WriteLine("Please enter deposit amount.");
                 string userInput = Console.ReadLine();
                 decimal input = Convert.ToDecimal(userInput);
-                //AddDeposit(input);
+                AddDeposit(input);
                 Console.WriteLine($"You have deposited ${userInput}. Press key to cont...");
                 Console.ReadLine();
-                }
+            }
             catch (Exception e)
             {
                 AvadaKedavra();
@@ -59,6 +60,21 @@ namespace Lab02_UnitTests
             }
         }
 
+        public static decimal AddDeposit(decimal input)
+        {
+            if (input<0)
+            {
+                    Console.WriteLine("Nonsufficient Funds");
+                    return StartingBal;
+            }
+            else 
+            {
+                    StartingBal = StartingBal += input;
+                    return StartingBal;
+            }
+        
+        }
+
         /// <summary>
         /// 
         /// </summary>
@@ -69,9 +85,9 @@ namespace Lab02_UnitTests
                 Console.WriteLine("Withdraw amount..");
                 string userInput = Console.ReadLine();
                 decimal input = Convert.ToDecimal(userInput);
-                //Withdraw(input);
+                Withdraw(input);
                 if (StartingBal < 0)
-                    {
+                {
                        userInput = null;
                        Console.WriteLine("Insufficient galleons");
                        Console.ReadLine();
@@ -86,6 +102,13 @@ namespace Lab02_UnitTests
             }
         }
 
+        public static decimal Withraw(decimal input)
+        {
+            StartingBal = StartingBal - input;
+            return StartingBal;
+
+        }
+
         /// <summary>
         /// User is able to check balance here.
         /// </summary>
@@ -94,7 +117,7 @@ namespace Lab02_UnitTests
         {
             try
             {
-                Console.WriteLine($"There is ${StartingBal} available. ");
+                Console.WriteLine($"There is ${StartingBal} available.");
                 GringottsWizardingBank();
             }
             catch (Exception)
@@ -113,10 +136,10 @@ namespace Lab02_UnitTests
             {
                 Console.WriteLine("See ya you Muggle!");
             }
-            catch (Exception b)
+            catch (Exception a)
             {
                 AvadaKedavra();
-                throw (new Exception(b.Message));
+                throw (new Exception(a.Message));
             }
         }
 
@@ -124,8 +147,5 @@ namespace Lab02_UnitTests
         {
             Console.WriteLine("Error....");
         }
-
     }
-
-
 }
