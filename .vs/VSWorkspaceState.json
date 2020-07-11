@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Lab02-UnitTests",
-    "\\Lab02-UnitTests\\bin",
-    "\\Lab02-UnitTests\\bin\\Release"
+    "\\Lab02-UnitTests"
   ],
-  "SelectedNode": "\\Lab02-UnitTests",
+  "SelectedNode": "\\Lab02-UnitTests\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
