@@ -66,12 +66,12 @@ namespace Lab02_UnitTests
             if (input<0)
             {
                     Console.WriteLine("Nonsufficient Funds");
-                    return StartingBal;
+                    return Balance;
             }
             else 
             {
-                    StartingBal = StartingBal += input;
-                    return StartingBal;
+                    Balance = Balance += input;
+                    return Balance;
             }
         
         }
@@ -87,7 +87,7 @@ namespace Lab02_UnitTests
                 string userInput = Console.ReadLine();
                 decimal input = Convert.ToDecimal(userInput);
                 Withdraw(input);
-                if (StartingBal < 0)
+                if (Balance < 0)
                 {
                        userInput = null;
                        Console.WriteLine("Insufficient galleons");
@@ -105,8 +105,8 @@ namespace Lab02_UnitTests
 
         public static decimal Withdraw(decimal input)
         {
-            StartingBal = StartingBal - input;
-            return StartingBal;
+            Balance = Balance - input;
+            return Balance;
 
         }
 
@@ -118,7 +118,7 @@ namespace Lab02_UnitTests
         {
             try
             {
-                Console.WriteLine($"There is ${StartingBal} available.");
+                Console.WriteLine($"There is ${Balance} available.");
                 GringottsWizardingBank();
             }
             catch (Exception)
